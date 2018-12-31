@@ -20,7 +20,7 @@
       echo '<tr>';
       echo '<p>'.$row['job_description'].'</p>';
       
-      //header("location: jobdetails.html");
+
      
      }
      header("location: jobdetails.html");
