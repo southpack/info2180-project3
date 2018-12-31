@@ -1,0 +1,70 @@
+
+
+.web {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+.grid {
+  display: grid;
+  max-width: relative;
+  position: relative;
+  margin: 0,auto;
+  grid-gap: 10px;
+  grid-template-areas:  "left		right";
+  grid-template-columns: 20% 80%; 
+
+  
+}
+
+.left {  
+  padding: 20px;    
+  background-color: lightgrey;
+  height: relative; 
+  grid-area: left;
+
+ 
+}
+
+.right {
+
+  background-color: white;
+  grid-area: right;
+  height:relative;
+  padding:20px;
+
+}
+
+.logo {
+  width:10%;
+  padding-right: 12px;
+  
+}
+
+.info {
+  margin-top: 20px;
+  float: right;
+}
+.Postjob{
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    float: right;
+    
+}
+.top{
+  display: inline-block;
+  
+}
+#applied{
+  background-color:green;
+}
+
